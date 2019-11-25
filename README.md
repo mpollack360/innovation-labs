@@ -73,7 +73,9 @@ Document | Refactor of documentation, e.g. help files.
 
 ## 2.3. Documentation
 <a id="markdown-documentation" name="documentation"></a>
-In cases where the impact of a change is such that it is affects a fundamental component of the system additional documentation is needed above what is presented in commit messages. This is by discretion, but it is advised to err on the side of more documentation than less.
+In cases where the impact of a change is such that it is affects a fundamental component of the system, additional documentation is needed above what is presented in commit messages. This is by discretion, but it is advised to err on the side of more documentation than less.
+
+In these cases, documentation should be added as markdown files within the project directory.
 
 ## 2.4. Pull Requests
 <a id="markdown-pull-requests" name="pull-requests"></a>
