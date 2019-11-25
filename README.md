@@ -1,26 +1,31 @@
 <!-- TOC -->
 
-- [1. Innovation Labs](#1-innovation-labs)
-- [2. Version Control](#2-version-control)
-  - [2.1. Branches](#21-branches)
-  - [2.2. Commits](#22-commits)
-    - [2.2.1. Use the Imperative](#221-use-the-imperative)
-    - [2.2.2. Use the Body to Explain the Background and Reasoning, not the Implementation](#222-use-the-body-to-explain-the-background-and-reasoning-not-the-implementation)
-    - [2.2.3. Subject Line Standard Terminology](#223-subject-line-standard-terminology)
-  - [2.3. Documentation](#23-documentation)
-  - [2.4. Pull Requests](#24-pull-requests)
-  - [2.5. Deploy](#25-deploy)
-- [3. Done](#3-done)
+- [Innovation Labs](#innovation-labs)
+- [Task Workflow](#task-workflow)
+- [Version Control](#version-control)
+  - [Branches](#branches)
+  - [Commits](#commits)
+    - [Use the Imperative](#use-the-imperative)
+    - [Use the Body to Explain the Background and Reasoning, not the Implementation](#use-the-body-to-explain-the-background-and-reasoning-not-the-implementation)
+    - [Subject Line Standard Terminology](#subject-line-standard-terminology)
+  - [Documentation](#documentation)
+  - [Pull Requests](#pull-requests)
+  - [Deploy](#deploy)
+- [Done](#done)
 
 <!-- /TOC -->
 
-# 1. Innovation Labs
+# Innovation Labs
 <a id="markdown-innovation-labs" name="innovation-labs"></a>
 The Innovation Lab is the opportunity for OCI to showcase our collective capabilities in solving business problems using technology in new and innovative ways. These demonstrations will be installed in the office to allow those visiting the OCI office to explore our solutions.
 
 More information on Innovation Labs can be found in the [Project.Innovation Labs](https://drive.google.com/drive/u/2/folders/0AK8RZHbfxVSqUk9PVA) shared Google Drive
 
-# 2. Version Control
+# Task Workflow
+<a id="markdown-task-workflow" name="task-workflow"></a>
+![Task Workflow Diagram](task%20workflow.png)
+
+# Version Control
 <a id="markdown-version-control" name="version-control"></a>
 Innovation Lab projects use a [trunk based development](https://trunkbaseddevelopment.com/) branching strategy.
 
@@ -71,25 +76,25 @@ Reformat | Refactor of formatting, e.g. omit whitespace.
 Optimize | Refactor of performance, e.g. speed up code.
 Document | Refactor of documentation, e.g. help files.
 
-## 2.3. Documentation
+## Documentation
 <a id="markdown-documentation" name="documentation"></a>
 In cases where the impact of a change is such that it is affects a fundamental component of the system, additional documentation is needed above what is presented in commit messages. This is by discretion, but it is advised to err on the side of more documentation than less.
 
 In these cases, documentation should be added as markdown files within the project directory.
 
-## 2.4. Pull Requests
+## Pull Requests
 <a id="markdown-pull-requests" name="pull-requests"></a>
 
 Pull requests require a minimum of one reviewer to accept changes prior to merge. It is the responsibility of the person submitting the pull request to schedule a code review.
 
 [Google Engineering - Code Review Developer Guide](https://google.github.io/eng-practices/review/)
 
-## 2.5. Deploy
+## Deploy
 <a id="markdown-deploy" name="deploy"></a>
 
 Once a pull request is merged the changed will be automatically deployed to the appropriate environment.
 
-# 3. Done
+# Done
 <a id="markdown-done" name="done"></a>
 A task is complete when
 - All acceptance criteria have been met
