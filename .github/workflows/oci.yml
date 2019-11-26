@@ -1,0 +1,10 @@
+name: OCI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Conform Action
+      uses: talos-systems/conform@v0.1.0-alpha.16
