@@ -1,8 +1,8 @@
 <!-- TOC -->
 
 - [Innovation Labs](#innovation-labs)
-- [Task Workflow](#task-workflow)
-- [Version Control](#version-control)
+- [Setup](#setup)
+- [Contributing](#contributing)
   - [Branches](#branches)
   - [Commits](#commits)
     - [Use the Imperative](#use-the-imperative)
@@ -11,7 +11,8 @@
   - [Documentation](#documentation)
   - [Pull Requests](#pull-requests)
   - [Deploy](#deploy)
-- [Done](#done)
+- [Task Workflow](#task-workflow)
+  - [Defenition of Done](#defenition-of-done)
 
 <!-- /TOC -->
 
@@ -19,14 +20,13 @@
 <a id="markdown-innovation-labs" name="innovation-labs"></a>
 The Innovation Lab is the opportunity for OCI to showcase our collective capabilities in solving business problems using technology in new and innovative ways. These demonstrations will be installed in the office to allow those visiting the OCI office to explore our solutions.
 
-More information on Innovation Labs can be found in the [Project.Innovation Labs](https://drive.google.com/drive/u/2/folders/0AK8RZHbfxVSqUk9PVA) shared Google Drive
+Information on this Innovation Lab project can be found in the [Project.Innovation Labs](https://drive.google.com/drive/u/2/folders/0AK8RZHbfxVSqUk9PVA) shared Google Drive.
 
-# Task Workflow
-<a id="markdown-task-workflow" name="task-workflow"></a>
-![Task Workflow Diagram](task%20workflow.png)
+# Setup
+<a id="markdown-setup" name="setup"></a>
 
-# Version Control
-<a id="markdown-version-control" name="version-control"></a>
+# Contributing
+<a id="markdown-contributing" name="contributing"></a>
 Innovation Lab projects use a [trunk based development](https://trunkbaseddevelopment.com/) branching strategy.
 
 [Trunk-based Development vs. Git Flow](https://www.toptal.com/software/trunk-based-development-git-flow)
@@ -94,8 +94,12 @@ Pull requests require a minimum of one reviewer to accept changes prior to merge
 
 Once a pull request is merged the changed will be automatically deployed to the appropriate environment.
 
-# Done
-<a id="markdown-done" name="done"></a>
+# Task Workflow
+<a id="markdown-task-workflow" name="task-workflow"></a>
+![Task Workflow Diagram](task%20workflow.png)
+
+## Defenition of Done
+<a id="markdown-defenition-of-done" name="defenition-of-done"></a>
 A task is complete when
 - All acceptance criteria have been met
 - Implementation has been code reviewed
